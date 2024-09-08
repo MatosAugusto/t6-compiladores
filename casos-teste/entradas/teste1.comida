@@ -1,0 +1,14 @@
+nome: "Augusto"
+dia da semana: "Sábado"
+data: 24/08/2024
+
+REFEICAO
+alimentos: arroz e feijao e carne
+tipo: Almoco
+horario: 12 horas e 30 minutos
+calorias: 600 kcal
+END_REFEICAO
+
+PLANEJAMENTO
+dia: 24/08/2024 refeicao: arroz e feijao e carne
+END_PLANEJAMENTO

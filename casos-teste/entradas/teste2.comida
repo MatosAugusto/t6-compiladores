@@ -1,0 +1,14 @@
+nome: "Matheus"
+dia da semana: "Segunda-feira"
+data: 25/08/2024
+
+REFEICAO
+alimentos: salada e frango
+tipo: Jantar
+horario: 19 horas e 0 minutos
+calorias: 400 kcal
+END_REFEICAO
+
+PLANEJAMENTO
+dia: 25/08/2024 refeicao: salada e frango
+END_PLANEJAMENTO
