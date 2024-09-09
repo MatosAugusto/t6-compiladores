@@ -605,7 +605,9 @@ public class ComidaLangParser extends Parser {
 
 	public static class PlanejamentoContext extends ParserRuleContext {
 		public TerminalNode DATA() { return getToken(ComidaLangParser.DATA, 0); }
-		public TerminalNode NOME() { return getToken(ComidaLangParser.NOME, 0); }
+		public AlimentosContext alimentos() {
+			return getRuleContext(AlimentosContext.class,0);
+		}
 		public PlanejamentoContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -638,7 +640,7 @@ public class ComidaLangParser extends Parser {
 			setState(85);
 			match(T__19);
 			setState(86);
-			match(NOME);
+			alimentos();
 			}
 		}
 		catch (RecognitionException re) {
@@ -673,8 +675,8 @@ public class ComidaLangParser extends Parser {
 		"\2\2CE\5\16\b\2DC\3\2\2\2EF\3\2\2\2FD\3\2\2\2FG\3\2\2\2GH\3\2\2\2HI\7"+
 		"\21\2\2I\r\3\2\2\2JK\7\22\2\2KL\7\27\2\2L\17\3\2\2\2MO\7\23\2\2NP\5\22"+
 		"\n\2ON\3\2\2\2PQ\3\2\2\2QO\3\2\2\2QR\3\2\2\2RS\3\2\2\2ST\7\24\2\2T\21"+
-		"\3\2\2\2UV\7\25\2\2VW\7\32\2\2WX\7\26\2\2XY\7\27\2\2Y\23\3\2\2\2\b\33"+
-		"\37\"?FQ";
+		"\3\2\2\2UV\7\25\2\2VW\7\32\2\2WX\7\26\2\2XY\5\n\6\2Y\23\3\2\2\2\b\33\37"+
+		"\"?FQ";
 	public static final ATN _ATN =
 		new ATNDeserializer().deserialize(_serializedATN.toCharArray());
 	static {

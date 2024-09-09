@@ -18,7 +18,7 @@ public class ComidaSemantico extends ComidaLangBaseVisitor<Void> {
 
     @Override
     public Void visitPlanejamento(ComidaLangParser.PlanejamentoContext ctx) {
-        String nomeRefeicao = ctx.NOME().getText();
+        String nomeRefeicao = ctx.alimentos().getText();
         refeicoesUsadas.add(nomeRefeicao);
         return null;
     }

@@ -38,11 +38,11 @@ bloco_planejamento:
 ;
 
 planejamento:
-    'dia:' DATA 'refeicao:' NOME
+    'dia:' DATA 'refeicao:' alimentos
 ;
 
 NOME: '"' (~('"'|'\\'|'\n'|'\r'))* '"';
-TIPO_REFEICAO: 'Café da Manhã' | 'Almoço' | 'Lanche' | 'Jantar';
+TIPO_REFEICAO: 'Cafe da Manha' | 'Almoco' | 'Lanche' | 'Jantar';
 NUMINT: ('0'..'9')+;
 DATA: NUMINT '/' NUMINT '/' NUMINT;
 
