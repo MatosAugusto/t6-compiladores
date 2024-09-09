@@ -1,14 +1,21 @@
-nome: "João"
-dia da semana: "Terça-feira"
-data: 26/08/2024
+nome: "Lucas"
+dia da semana: "Quarta-feira"
+data: 30/08/2024
 
 REFEICAO
-alimentos: pizza
+alimentos: "arroz" e "feijao"
+tipo: Almoco
+horario: 12 horas e 30 minutos
+calorias: 600 kcal
+END_REFEICAO
+
+REFEICAO
+alimentos: "salada" e "frango"
 tipo: Jantar
-horario: 20 horas e 0 minutos
-calorias: 800 kcal
+horario: 19 horas e 0 minutos
+calorias: 400 kcal
 END_REFEICAO
 
 PLANEJAMENTO
-dia: 26/08/2024 refeicao: arroz e feijao
+dia: 30/08/2024 refeicao: "arroz" e "feijao"
 END_PLANEJAMENTO

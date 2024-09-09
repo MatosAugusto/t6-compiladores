@@ -1,10 +1,14 @@
-nome: "Ana"
-dia da semana: "Quarta-feira"
-data: 27/08/2024
+nome: "Mariana"
+dia da semana: "Sexta-feira"
+data: 01/09/2024
 
 REFEICAO
-alimentos: macarrao
-tipo: Almoco
+alimentos: pizza
+tipo: Jantar
 horario: 25 horas e 0 minutos
-calorias: 500 kcal
+calorias: 800 kcal
 END_REFEICAO
+
+PLANEJAMENTO
+dia: 01/09/2024 refeicao: pizza
+END_PLANEJAMENTO
