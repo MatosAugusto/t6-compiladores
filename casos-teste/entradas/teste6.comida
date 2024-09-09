@@ -1,0 +1,27 @@
+nome: "Maria"
+dia da semana: "Segunda-feira"
+data: 10/09/2024
+
+REFEICAO
+alimentos: "pao" e "queijo"
+tipo: Cafe da Manha
+horario: 07 horas e 15 minutos
+calorias: 250 kcal
+END_REFEICAO
+
+REFEICAO
+alimentos: "arroz" e "feijao" e "frango"
+tipo: Almoco
+horario: 12 horas e 45 minutos
+calorias: 700 kcal
+END_REFEICAO
+
+GOSTOS
+gosto de "pao"
+gosto de "chocolate"
+END_GOSTOS
+
+PLANEJAMENTO
+dia: 11/09/2024 refeicao: "pao" e "queijo"
+dia: 12/09/2024 refeicao: "arroz" e "feijao" e "frango"
+END_PLANEJAMENTO

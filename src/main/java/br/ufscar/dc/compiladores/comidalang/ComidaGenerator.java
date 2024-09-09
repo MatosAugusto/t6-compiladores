@@ -1,8 +1,5 @@
 package br.ufscar.dc.compiladores.comidalang;
 
-import br.ufscar.dc.compiladores.comidalang.ComidaLangBaseVisitor;
-import br.ufscar.dc.compiladores.comidalang.ComidaLangParser;
-
 import java.io.PrintWriter;
 import java.util.List;
 
@@ -31,6 +28,7 @@ public class ComidaGenerator extends ComidaLangBaseVisitor<Void> {
         out.append("</body></html>\n");
         return null;
     }
+    
 
     @Override
     public Void visitBloco_refeicao(ComidaLangParser.Bloco_refeicaoContext ctx) {
@@ -39,6 +37,16 @@ public class ComidaGenerator extends ComidaLangBaseVisitor<Void> {
         out.append("<p>Horario: ").append(ctx.NUMINT(0).getText()).append(" horas e ")
                 .append(ctx.NUMINT(1).getText()).append(" minutos</p>\n");
         out.append("<p>Calorias: ").append(ctx.NUMINT(2).getText()).append(" kcal</p>\n");
+        return null;
+    }
+    
+    @Override
+    public Void visitBloco_gostos(ComidaLangParser.Bloco_gostosContext ctx) {
+        out.append("<h2>Gostos</h2>\n<ul>\n");
+        for (ComidaLangParser.GostoContext gostoCtx : ctx.gosto()) {
+            out.append("<li>").append(gostoCtx.NOME().getText()).append("</li>\n");
+        }
+        out.append("</ul>\n");
         return null;
     }
 

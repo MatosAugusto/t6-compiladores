@@ -1,8 +1,5 @@
 package br.ufscar.dc.compiladores.comidalang;
 
-import br.ufscar.dc.compiladores.comidalang.ComidaLangBaseVisitor;
-import br.ufscar.dc.compiladores.comidalang.ComidaLangParser;
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -12,6 +9,7 @@ public class ComidaSemantico extends ComidaLangBaseVisitor<Void> {
     Set<String> refeicoesDeclaradas = new HashSet<>();
     Set<String> refeicoesUsadas = new HashSet<>();
     List<String> errosSemanticos = new ArrayList<>();
+    Set<String> gostosDeclarados = new HashSet<>();  
 
     @Override
     public Void visitBloco_refeicao(ComidaLangParser.Bloco_refeicaoContext ctx) {
@@ -27,6 +25,17 @@ public class ComidaSemantico extends ComidaLangBaseVisitor<Void> {
         return null;
     }
 
+
+    @Override
+    public Void visitBloco_gostos(ComidaLangParser.Bloco_gostosContext ctx) {
+        for (ComidaLangParser.GostoContext gostoCtx : ctx.gosto()) {
+            String gosto = gostoCtx.NOME().getText();  // Obtem o nome do gosto
+            gostosDeclarados.add(gosto);  // Armazena o gosto
+        }
+        return null;
+    }
+
+
     public void verificarRefeicoesNaoUsadas() {
         for (String refeicao : refeicoesDeclaradas) {
             if (!refeicoesUsadas.contains(refeicao)) {
@@ -34,6 +43,7 @@ public class ComidaSemantico extends ComidaLangBaseVisitor<Void> {
             }
         }
     }
+
 
     public List<String> getErrosSemanticos() {
         verificarRefeicoesNaoUsadas();

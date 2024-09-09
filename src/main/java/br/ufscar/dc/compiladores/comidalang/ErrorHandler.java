@@ -25,7 +25,7 @@ public class ErrorHandler implements ANTLRErrorListener {
     public ErrorHandler(List<String> errosSintaticos) {
         this.errosSintaticos = errosSintaticos;
     }
-
+    // Este método é chamado automaticamente quando o ANTLR detecta um erro sintático durante o parsing (análise sintática). Aqui, o erro é processado e uma mensagem personalizada é criada.
     @Override
     public void syntaxError(Recognizer<?, ?> recognizer, Object offendingSymbol, int line, int charPositionInLine, String msg, RecognitionException e) {
         Token t = (Token) offendingSymbol;
