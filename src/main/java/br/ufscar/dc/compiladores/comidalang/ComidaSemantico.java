@@ -44,9 +44,18 @@ public class ComidaSemantico extends ComidaLangBaseVisitor<Void> {
         }
     }
 
+    public void verificarRefeicoesNaoDeclaradas() {
+        for (String refeicao : refeicoesUsadas){
+            if(!refeicoesDeclaradas.contains(refeicao)) {
+                errosSemanticos.add("Refeicao utilizada no planejamento nao foi declarada: " + refeicao);
+            }
+        }
+    }
+
 
     public List<String> getErrosSemanticos() {
         verificarRefeicoesNaoUsadas();
+        verificarRefeicoesNaoDeclaradas();
         return errosSemanticos;
     }
 }
