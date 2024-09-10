@@ -81,5 +81,5 @@ java -jar target/ComidaLang-1.0-SNAPSHOT-jar-with-dependencies.jar <arquivo-entr
 
 ### Example
 ```
-java -jar target/ComidaLang-1.0-SNAPSHOT-jar-with-dependencies.jar ./casos-teste/entradas/teste6.comida ./casos-teste/saidas/teste8.html
+java -jar target/ComidaLang-1.0-SNAPSHOT-jar-with-dependencies.jar ./casos-teste/entradas/teste1.comida ./casos-teste/saidas/teste1.html
 ```
