@@ -5,71 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6882c371-7abc-4d7b-bd1c-c1a195bb1d63" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../birlang-main/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/casos-teste/entradas/teste1.comida" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/casos-teste/entradas/teste2.comida" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/casos-teste/entradas/teste3-erro.comida" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/casos-teste/entradas/teste4-erro.comida" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/casos-teste/entradas/teste5-erro.comida" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/casos-teste/saidas/teste1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/casos-teste/saidas/teste2-erro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/casos-teste/saidas/teste3-erro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/casos-teste/saidas/teste4-erro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/src/main/antlr4/br/ufscar/dc/compiladores/comidalang/ComidaLang.g4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/src/main/java/br/ufscar/dc/compiladores/comidalang/ComidaGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/src/main/java/br/ufscar/dc/compiladores/comidalang/ComidaSemantico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/src/main/java/br/ufscar/dc/compiladores/comidalang/ErrorHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/src/main/java/br/ufscar/dc/compiladores/comidalang/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/Birlang-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/Birlang-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/Birl.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/BirlLexer.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birl/Birl.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birl/BirlBaseListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birl/BirlBaseVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birl/BirlLexer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birl/BirlLexer.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birl/BirlListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birl/BirlParser$Bloco_dailyContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birl/BirlParser$BodyContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birl/BirlParser$DailyContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birl/BirlParser$InfoContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birl/BirlParser$ProgramContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birl/BirlParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birl/BirlVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birlang/BirlGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birlang/BirlSemantico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birlang/BirlUtils/BirlType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birlang/ErrorHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/classes/br/ufscar/dc/compiladores/birlang/Principal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/generated-sources/antlr4/Birl.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/generated-sources/antlr4/BirlLexer.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/generated-sources/antlr4/br/ufscar/dc/compiladores/comidalang/Birl.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/generated-sources/antlr4/br/ufscar/dc/compiladores/comidalang/BirlBaseListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/generated-sources/antlr4/br/ufscar/dc/compiladores/comidalang/BirlLexer.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/generated-sources/antlr4/br/ufscar/dc/compiladores/comidalang/BirlLexer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/generated-sources/antlr4/br/ufscar/dc/compiladores/comidalang/BirlListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/generated-sources/antlr4/br/ufscar/dc/compiladores/comidalang/BirlVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/generated-sources/antlr4/br/ufscar/dc/compiladores/comidalang/ComidaLangBaseVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/generated-sources/antlr4/br/ufscar/dc/compiladores/comidalang/ComidaLangParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../birlang-main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casos-teste/entradas/teste1.comida" beforeDir="false" afterPath="$PROJECT_DIR$/casos-teste/entradas/teste1.comida" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/casos-teste/entradas/teste2.comida" beforeDir="false" afterPath="$PROJECT_DIR$/casos-teste/entradas/teste2.comida" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/casos-teste/entradas/teste3-erro.comida" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casos-teste/entradas/teste4-erro.comida" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casos-teste/entradas/teste5-erro.comida" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casos-teste/saidas/teste1.html" beforeDir="false" afterPath="$PROJECT_DIR$/casos-teste/saidas/teste1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/casos-teste/saidas/teste2-erro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casos-teste/saidas/teste3-erro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casos-teste/saidas/teste4-erro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/antlr4/br/ufscar/dc/compiladores/comidalang/ComidaLang.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/antlr4/br/ufscar/dc/compiladores/comidalang/ComidaLang.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufscar/dc/compiladores/comidalang/ComidaGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufscar/dc/compiladores/comidalang/ComidaGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufscar/dc/compiladores/comidalang/ComidaSemantico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufscar/dc/compiladores/comidalang/ComidaSemantico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufscar/dc/compiladores/comidalang/ErrorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufscar/dc/compiladores/comidalang/ErrorHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufscar/dc/compiladores/comidalang/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufscar/dc/compiladores/comidalang/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casos-teste/entradas/teste4.comida" beforeDir="false" afterPath="$PROJECT_DIR$/casos-teste/entradas/teste4.comida" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casos-teste/entradas/teste5.comida" beforeDir="false" afterPath="$PROJECT_DIR$/casos-teste/entradas/teste5.comida" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casos-teste/saidas/teste5.html" beforeDir="false" afterPath="$PROJECT_DIR$/casos-teste/saidas/teste5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -87,14 +28,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/augusto.matos/Documents/Modelos Personalizados do Office/Trabalho6Compiladores/comidalang-main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/augusto.matos/Documents/Modelos Personalizados do Office/Trabalho6Compiladores/comidalang-main&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="birlang-main" />
